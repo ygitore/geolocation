@@ -14,7 +14,7 @@ class App extends Component {
       error=>this.setState({errorMessage:error.message})
     )
   }
-  render(){
+  renderContent = () => {
     if(this.state.lat && !this.state.errorMessage){
       return (
         <div  className="season-display">
@@ -30,6 +30,9 @@ class App extends Component {
         <Spinner message="Please accept location request"/>
       </div>
     )
+  }
+  render(){
+    return <div className="border">{this.renderContent()}</div>
   }
 }
 

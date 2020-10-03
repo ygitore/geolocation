@@ -40,4 +40,12 @@
   background-color: rgb(84, 109, 141);
   height: 100vh;
   width: auto;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+.border{
+  border: 2px solid rgb(230, 122, 122);
 }
