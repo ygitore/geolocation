@@ -1,4 +1,5 @@
 import React from 'react'
+
 const getSeason = (lat, month) => {
     if(month > 3 && month > 8) {
         return lat > 0 ? "Winter" : "Summer"

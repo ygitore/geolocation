@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+.season-display{
+  background-color: rgb(84, 109, 141);
+  height: 100vh;
+  width: auto;
+}
